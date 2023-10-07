@@ -1,0 +1,97 @@
+
+/* bootstrap */
+span{
+    color: white;
+}
+
+
+/* hero */
+main{
+    position: relative;
+}
+
+#form{
+    position: absolute;
+    bottom: 5%;
+    right: 7%;
+    border-radius: 25px;
+    background-color: #2e2e36;
+    width: 25rem;
+    height: 30rem;
+
+}
+#form form{
+    display: flex;
+    flex-direction: column;
+}
+#form>*{
+    margin: 5%;
+    border-radius: 30px;
+    align-content: center; 
+    justify-content: center;
+}
+#add_button{
+    background-color:#00b68b;
+}
+#main_text{
+    position: absolute;
+    top : 30%;
+    left: 7%;
+
+}
+
+h1{
+    color: #2e2e36;
+}
+
+.bg-dark{
+    background-color: #2e2e36;
+}
+
+label{
+    color: white;
+}
+
+
+
+/* display data */
+#table{
+    padding: 7%;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    padding: 5% 7%;
+
+}
+
+
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7%;
+
+}
+#cards div{
+    margin:5% ;
+    align-items: center;
+    
+}
+
+.card:hover{
+    background-color: #00b68b;
+}
+
+@media screen and  (max-width: 1000px) {
+
+    #form{
+        position: relative;
+        margin: auto;
+        bottom: auto;
+        right: auto;
+
+    }
+
+
+}
